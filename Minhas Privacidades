@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Política de Privacidade - Meus Apps</title>
     <style>
         body {
@@ -15,7 +15,7 @@
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 0 auto;
             background: white;
             padding: 30px;
             border-radius: 8px;
@@ -49,6 +49,13 @@
             margin: 20px 0;
             border-radius: 4px;
         }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -62,32 +69,33 @@
             <p><strong>CalOPPA (EUA):</strong> Obrigatório desde 1º de janeiro de 2014, aplica-se a negócios com usuários na Califórnia, EUA.</p>
         </div>
 
-        <!-- Seção para o App Km7 -->
+        <!-- Seção do App Km7 -->
         <div class="app-section">
             <h2>Km7</h2>
             <p><strong>Última atualização:</strong> 21 de junho de 2025</p>
-            <div>
-                <p>Esta Política de Privacidade descreve nossas políticas e procedimentos sobre a coleta, uso e divulgação de suas informações quando você usa o aplicativo Km7.</p>
-                <p><strong>Dados coletados:</strong> E-mail, nome, telefone, dados de uso (IP, tipo de dispositivo), informações de redes sociais (Google, Facebook, etc.), e permissões de câmera/galeria (quando autorizado).</p>
-                <p><strong>Finalidade:</strong> Melhorar o serviço, personalização, segurança e conformidade legal.</p>
-                <p><a href="#km7-full-policy">Leia a política completa abaixo</a></p>
-            </div>
+            <p>Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações no aplicativo Km7.</p>
+            <p><strong>Dados coletados:</strong> E-mail, nome, telefone, dados de uso (IP, tipo de dispositivo), e permissões de câmera/galeria (quando autorizado).</p>
+            <p><a href="#km7-full-policy">Leia a política completa</a></p>
         </div>
 
         <!-- Seção para Adicionar Novos Apps (Modelo) -->
         <div class="app-section">
             <h2>Nome do Novo App</h2>
             <p><strong>Última atualização:</strong> [Data]</p>
-            <div>
-                <p>[Resumo breve dos dados coletados e finalidade].</p>
-                <p><a href="#novoapp-full-policy">Leia a política completa</a></p>
-            </div>
+            <p>[Resumo breve dos dados coletados e finalidade].</p>
+            <p><a href="#novoapp-full-policy">Leia a política completa</a></p>
         </div>
 
         <!-- Política Completa do Km7 -->
         <div id="km7-full-policy">
             <h2>Política Completa - Km7</h2>
             <p>[Cole aqui o texto completo da política do Km7 que você já possui]</p>
+        </div>
+
+        <!-- Política Completa do Novo App (Modelo) -->
+        <div id="novoapp-full-policy">
+            <h2>Política Completa - [Nome do Novo App]</h2>
+            <p>[Texto da política aqui]</p>
         </div>
 
         <footer>
